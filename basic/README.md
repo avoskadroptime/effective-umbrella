@@ -237,7 +237,8 @@ You can see code coverage output under the `tests/_output` directory.
 
 На GitHub папка vendor не нужна, всё что в ней, у вас прописано в файле composer.json. Когда скачиваете проект на локальную машину, из консоли переходите в корень проекта и выполняете, если composer установлен глобально:
 
-
+```
 composer self-update
 composer install
 composer update
+```
